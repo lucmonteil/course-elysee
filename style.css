@@ -29,3 +29,9 @@
   background-image: url("images/elysee.jpg");
   background-size: cover;
 }
+
+.banner {
+  background-image: url("images/banner-elysee.png");
+  background-size: cover;
+  height: 100px;
+}
