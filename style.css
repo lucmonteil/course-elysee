@@ -1,0 +1,31 @@
+.racer_table td {
+  height: 100px;
+  width: 100px;
+  border-color: grey
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/sarkozy.gif");
+}
+#player2_race td.active {
+  background-image: url("images/hollande.gif");
+}
+#player3_race td.active {
+  background-image: url("images/lepen.gif");
+}
+
+#player1_race td.finish {
+  background-image: url("images/elysee.jpg");
+  background-size: cover;
+}
+#player2_race td.finish {
+  background-image: url("images/elysee.jpg");
+  background-size: cover;
+}
+#player3_race td.finish {
+  background-image: url("images/elysee.jpg");
+  background-size: cover;
+}
